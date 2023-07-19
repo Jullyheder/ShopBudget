@@ -16,23 +16,19 @@ Este aplicativo utiliza o Firebase Realtime Database para armazenar os dados dos
 
 4. Copie as credenciais de configuração do banco de dados, incluindo a chave de API, o ID do projeto e a URL do banco de dados.
 
-5. Crie um arquivo chamado "env.js" na raiz do projeto e adicione as credenciais do banco de dados no seguinte formato:
+5. Crie um arquivo chamado ".env" na raiz do projeto e adicione as credenciais do banco de dados no seguinte formato:
 
-```javascript
-// env.js
+```bash
+// .env
+API_KEY=
+AUTH_DOMAIN=
+DB_URL=
+PROJ_ID=
+STORAGE_BUCKET=
+MESSAGING_SENDER_ID=
+APP_ID=
 
-const firebaseConfig = {
-  apiKey: 'sua_chave_de_api',
-  projectId: 'seu_id_do_projeto',
-  databaseURL: 'url_do_banco_de_dados',
-  etc: 'etc...',
-};
-
-export default firebaseConfig;
 ```
-
-Certifique-se de substituir os valores `'sua_chave_de_api'`, `'seu_id_do_projeto'` e `'url_do_banco_de_dados'` pelas suas próprias credenciais do Firebase Realtime Database.
-
 ## Instalação
 
 Siga as instruções abaixo para baixar o código-fonte do aplicativo:
